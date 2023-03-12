@@ -15,17 +15,19 @@ const App = () => {
         <div className="flex justify-center">
           <ul className="wrapper">
             <li className="icon facebook">
-              <span className="tooltip">Facebook</span>
+              <span className="tooltip"> Facebook</span>
               {/* className="fab fa-facebook-f" */}
+              <a target="_blank" href="https://www.facebook.com/cakeinnovation.gurgaon">
               <span>
                 <AiFillFacebook className="" />
-              </span>
+              </span></a>
             </li>
             <li className="icon instagram">
               <span className="tooltip">Instagram</span>
+              <a target="_blank" href="https://www.instagram.com/p/CfqoLQ5vZL7/?igshid=MDJmNzVkMjY=">
               <span>
                 <AiFillInstagram className="" />
-              </span>
+              </span></a>
             </li>
             <li className="icon swiggy">
               <span className="tooltip">Swiggy</span>
